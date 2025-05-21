@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Calc App Compiler",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+      "main.cpp",
+      "src/DBMS.cpp",
+      "src/Parser.cpp",
+      "src/Table.cpp",
+      "-o",
+      "build/mini-db.exe",
+      "-I${workspaceFolder}/include",
+      "-L${workspaceFolder}/lib",
+      ],
+      "group": {
+      "kind": "build",
+      "isDefault": true
+      },
+      "problemMatcher": ["$gcc"],
+      "options": {
+      "shell": {
+        "executable": "C:\\Windows\\System32\\cmd.exe",
+        "args": ["/d", "/c"]
+      }
+      }
+    }
+  ]
+}
