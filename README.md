@@ -6,12 +6,11 @@
 
  <ul>
     <li>CREATE Table</li>
-    <li>Update row</li>
-    <li>Show Table Description</li>
-    <li>Delete row</li>
-    <li>Select rows</li>
-    <li>Drop Table</li>
+    <li>Update Record</li>
     <li>Show Tables</li>
+    <li>Delete Record</li>
+    <li>Select Record</li>
+    <li>Drop Table</li>
 </ul>
 
 ### Screenshots
